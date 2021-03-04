@@ -1,6 +1,6 @@
 {
   "name": "pemutils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Convert .pfx to .pem files (key, cert or both) with simple OpenSSL bindings",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gammasoft/pemutils"
+    "url": "https://github.com/jilongcui/pemutils"
   },
   "keywords": [
     "pem",
@@ -18,19 +18,21 @@
     "certificate",
     "openssl"
   ],
-  "author": "Renato Gama <renato@gammasoft.com.br>",
+  "author": "Jilong Cui <jilongcui@163.com>",
   "license": "MIT",
-  "contributors": [{
-    "name": "Ben",
-    "url": "https://github.com/weagle08"
-  }],
+  "contributors": [
+    {
+      "name": "jilong",
+      "url": "https://github.com/jilongcui"
+    }
+  ],
   "bugs": {
-    "url": "https://github.com/gammasoft/pemutils/issues"
+    "url": "https://github.com/jilongcui/pemutils/issues"
   },
-  "homepage": "https://github.com/gammasoft/pemutils",
+  "homepage": "https://github.com/jilongcui/pemutils",
   "dependencies": {
     "async": "^0.9.0",
-    "x509": "^0.2.3"
+    "x509": "ampretia/node-x509"
   },
   "devDependencies": {
     "chai": "^3.4.1",
